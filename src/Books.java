@@ -9,10 +9,7 @@ public class Books {
     public Books(String title, String author, String ISBN, String genre){
 
     }
-    @Override
-    public String toString(){
-        return ("Titile: " + title + "Author" + author + "ISBN" + isbn + "Genre" + genre);
-    }
+
 
 
     public String getTitle() {
